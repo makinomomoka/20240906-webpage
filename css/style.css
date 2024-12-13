@@ -1,0 +1,170 @@
+@charset "utf-8";
+body{
+  background-image: url('../img/top-1.png');
+  background-size: cover; /* 背景画像を要素全体に合わせて拡大縮小 */
+  background-position: center; /* 画像を中央に配置 */
+  background-attachment: fixed; /* スクロール時に背景を固定 */
+  background-repeat: no-repeat; /* 繰り返しを無効にする */  
+}
+
+
+a{
+    color: inherit;
+    text-decoration: none;    
+}
+
+a:hover{
+  opacity: .5;
+}
+
+
+header{
+    padding: 16px;
+    background: #617eff;
+    opacity: .5;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+nav ul{
+    display: flex;
+    gap: 48px;
+    list-style-type: none;
+}
+
+main{
+  margin: 40px 0;
+}
+
+.contents{
+    width: 1024px;
+    margin: auto;
+}
+
+section{
+  margin-top: 80px;
+}
+/* 見出し共通 */
+h2{
+  font-size: 36px;
+  font-family: "Klee One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #617eff;
+
+}
+
+h2 span{
+  font-size: 18px;
+  display: block;
+  color:#9ee6fe
+   ;
+}
+
+/*-------------------
+---  #first view ---
+---------------------*/
+#first-view{
+    display: flex;
+}
+
+#first-view .text{
+    align-self: center;
+    margin-right: 50px;
+}
+#first-view h1{
+    font-size: 70px;
+    margin: 0 0 60px;
+    color: #8097fd;
+    font-family: "Klee One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#first-view .sub-title{
+    font-size: 18px;
+    display: block;
+    font-family: "Klee One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*-------------------
+---  #sec-1 ---
+---------------------*/
+#sec-1{
+    display: flex;
+    flex-direction:row-reverse ;
+    padding-left: 60px;
+    justify-content: space-between;
+}
+
+.sec-1-right{
+  width: 560px;
+}
+
+
+.sec-1-right p{
+  margin: 30px 0;
+}
+
+/*-------------------
+---  #sec-2 ---
+---------------------*/
+#sec-2 h2{
+  text-align: center;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn_box{
+  display: block;
+  width: 250px;
+  padding: 10px 0;
+  border: 2px solid #4364f6;
+  margin: 60px auto 0;
+  text-align: center;
+  color: #617eff;
+
+}
+
+.btn_box:hover{
+  background: #212121;
+  color: white;
+}
+/*-------------------
+---  #sec-3 ---
+---------------------*/
+#sec-3{
+  text-align: center;
+}
+
+p{
+  font-family: "Klee One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:#9ee6fe
+
+}
+
+/*-------------------
+--- footer---
+---------------------*/
+
+footer{
+  background: #617eff;
+  opacity: .5;
+  color: #f5f5f5;
+font-size: 12px;
+  padding: 10px 0;
+  text-align: center;
+}
